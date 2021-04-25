@@ -1,0 +1,28 @@
+.contacto_section__row{
+    margin-left: 5%;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+h5 {
+    text-align: left;
+    color:$Ruddy-pink;
+
+    &:hover {
+        color: $Raisin-black;
+    }
+
+    &:active {
+        color:$Light-gray;
+      }
+}
+
+.contacto_section__div-description {
+
+    text-align: left;
+    margin-top: 3rem;
+
+}

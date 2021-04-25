@@ -1,0 +1,21 @@
+// Componentes del sitio
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+// Incluyendo Bootstrap con Sass
+@import 'vendors/scss/bootstrap.scss';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/navbar';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/buttons';
+
+@import 'pages/blog';
+@import 'pages/home';
+@import 'pages/contact';

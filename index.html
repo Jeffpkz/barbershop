@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbershop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Iconos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Fuentes Externas Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!---Mi Estilo Boostrap CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<!-- Menu superior-->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+    <a class="navbar-brand " href="#main"></a><img src="assets/img/logo.png" width="100px" alt="logo" class="logo">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse justify-content-end navbar-collapse pt-2 " id="navbarNav">
+        <ul class="navbar-expand-md ">
+        <div class="navbar-nav ml-auto ">
+          <li class="nav-item nav-link"> <a class="btn botonnav " href="#main">Nosotros</a ></li>
+          <li class="nav-item nav-link"> <a  class="btn botonnav" href="#">Trabajos</a ></li>
+          <li class="nav-item nav-link "> <a  class="btn botonblog "href="#">Blog</a ></li>
+          <li class="nav-item nav-link"> <a class="btn botonnav"href="#">Horas</a ></li>
+        <li class="nav-item nav-link"> <a  class="btn botonnav" href="#contacto">Contacto</a ></li>
+        </div>
+        </div>
+      </ul>
+        </div>
+        </nav>
+
+  <!-- HEADER Foto-->
+  <header class="header text-center pt-5 mt-5">
+    <div class="container">
+    <h1 class="display-1 font-weight-bold mt-5 pb-5">5 formas de cuidar <br> tu corte de cabello</h1>
+    </div>
+    <a class="icon btn btn-outline-none" href="#main"><i class="fas fa-angle-double-down fa-4x text-white" ></i></a>
+  </header>
+
+
+  <!-- Bloque de Texto con Semantica BEM-->
+  <section id="main" class="main_section container p-5">
+        
+    <h5 class="main_section__h5"></h5>
+    <p class="date pt-4">25 de abril de 2021</p>
+    <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc quam, eget scelerisque quam semper quis. Mauris maximus blandit lorem, sit amet condimentum eros auctor quis. In ut semper ipsum, nec condimentum est. Phasellus sodales, nunc vitae feugiat consequat, turpis velit euismod mi, eget scelerisque felis odio nec tortor. Ut nibh ex, tincidunt eu faucibus vel, sollicitudin ut velit. </p>
+    <p class="pt-4">Fusce dapibus turpis massa, nec pellentesque libero porttitor eu. Fusce vel pellentesque augue. Cras finibus elit nec nisl vehicula, in interdum dolor volutpat. Duis arcu odio, aliquet non sapien vitae, scelerisque aliquam lorem. Suspendisse et sem tincidunt, tincidunt odio id, varius enim. Vestibulum faucibus augue id fringilla vulputate. Sed vitae magna eu enim pellentesque laoreet. Pellentesque id molestie eros. Nunc quam nisi, efficitur in scelerisque eu, lacinia vel erat.</p>
+    <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia diam sodales, blandit metus habitasse felis fringilla et iaculis laoreet varius eleifend, nisi in ultricies sapien potenti augue convallis praesent hac. Enim donec pulvinar per eget lectus inceptos rhoncus imperdiet habitant dictum gravida, odio curabitur nulla magna purus urna leo tincidunt sollicitudin proin semper</p>  
+    <p class="pt-4 d-none d-md-block">Proin quis tortor ante. Cras fermentum urna a felis placerat, eget malesuada ipsum placerat. Fusce scelerisque, leo quis auctor lacinia, mauris justo porta enim, eget dictum nisi sapien eget exa enim, eget dictum nisi sapien eget exa enim, eget dictum nisi sapien eget exa enim, eget dictum nisi sapien eget exa enim, eget dictum nisi sapien eget ex.</p>
+    <p class="pt-4 d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia diam sodales blandit metus habitasse felis fringilla et iaculis laoreet varius eleifend, nisi in ultricies sapien<span class="resaltado">Enim donec pulvinar per eget lectus inceptos rhoncus imperdiet habitant dictum gravida</span> odio curabitur nulla magna purus urna leo tincidunt sollicitudin proin semper odio curabitur nulla magna purus urna leo tincidunt sollicitudin proin semper odio curabitur  nulla magna purus urna leo tincidunt sollicitudin proin semper nulla magna purus urna leo tincidunt sollicitudin proin semper</p>
+  
+    <!-- Botones Compartir-->
+
+    <div class="main_section_row row py-3">
+        <div class="col text-left text-md-left">
+          <button type="button" class="Sharebtn btn-outline-secondary rounded-pill" data-bs-toggle="button" autocomplete="off">Compartir</button>
+          <button type="button" class="Sharebtn btn-outline-secondary rounded-pill" data-bs-toggle="button" autocomplete="off">Comentar en Twitter</button>
+        </div>
+    </div>
+</section>
+<hr>
+
+  <!-- Contacto Modelo con Semantica BEM -->
+<section id="contacto" class="contacto_section text-center p-5">
+<div class="contacto_section__row row container ">
+    <div class="contacto_section__row_col col-md-2 mb-3 ">
+        <img class="img-naomi .col- img-fluid rounded-circle" src="assets/img/naomi-thai.png" alt="Naomi-Thai">
+    </div>
+
+    <div class="contacto_section__row_col col-md-3">
+        <h3 class="contacto_section__row_col-author">Naomi Thai</h3>
+        <h5 class="contacto_section__row_col-author-links ">@Naothai</h5></a>
+        <h5 class="contacto_section__row_col-author-links" >depelos.com</h5></a>
+    </div>
+
+    <div class="contacto_section__div d-none d-md-block col-md-6">
+        <p class="contacto_section__div-description">Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia diam sodales, blandit metus habitasse felis fringilla et iaculis laoreet varius eleifend, nisi in ultricies sapien potenti augue convallis praesent hac. Enim donec pulvinar per eget lectus inceptos rhoncus imperdiet habitant dictum gravida</p>
+    </div>
+</div>
+</section>
+
+  <!--Botones de Paginas-->
+  
+<section class="paginas py-5">
+<div class="container-fluid  pt-1 pb-3">
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item mb-1">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">Anterior</span>
+        </a>
+      </li>
+      <li class="page-item "><a class="page-link" href="#">1</a></li>
+      <li class="page-item "><a class="page-link " href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">Siguiente</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+</section>
+
+  <!-- Footer-->
+
+<footer class="footer py-5">
+<img src="assets/img/logo.png" alt="Imagen Logo"  class="footer__img">
+</footer>
+
+  
+
+    <!--Jquery v3.6.0  SIN SLIM-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--Popper JS v1.16.1-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src='assets/js/main.js'></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+// Adaptacion Banner del header
+.header {
+    height: 100vh;
+    background-color: $white;
+    background-size: cover;
+    background-image: url('https://github.com/Jeffpkz/Landing/blob/199f229205595596e89c1ae48568566e884cd171/post-image.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-bottom: 5rem;
+    padding-top: 0;
+
+    .display-1 {
+
+        color: $white;
+        font-family: $playfair;
+        font-size: $blackitalic;
+        font-style: italic;
+        padding-top: 15%;
+    }
+}

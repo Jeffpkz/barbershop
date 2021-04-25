@@ -1,0 +1,47 @@
+// Botones Paginas
+.pagination {
+
+    position: relative;
+    background : $white;
+    display: flex;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+    margin-left: 40%;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px;
+    width: 19.5%;
+}
+
+// Aplicando pesudo hover a botones compartir en redes sociales
+
+.page-link {
+    color: $Eerie-black;
+
+    &:hover {
+        background-color: $Nickel;
+        color:$white;
+
+    }
+}
+
+.Sharebtn {
+    color: $white;
+    background-color: $Nickel;
+
+
+    &:hover {
+        background-color: $Platinum;
+        color:$white;
+
+    }
+
+}
+
+// boton flechas header
+
+.icon {
+    margin-top: 100px;
+    border-color: none;
+    background-color: none;
+    outline: none;
+}

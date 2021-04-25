@@ -1,0 +1,13 @@
+// Aplicando Mixins para Medidas de imagenes mobile first
+
+@mixin img-naomi {
+    @media (min-width: $min-phone) {
+      @content; 
+    }
+}
+
+@mixin footer__img {
+  @media (min-width: $min-phone) {
+    @content; 
+  }
+}
